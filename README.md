@@ -2,13 +2,6 @@
 Modern command-line todo / task manager with AI integration
 <div align="center">
 
-```
-╭──────────────────────────────────────────────────────╮
-│  ✦ TODO — C++23 Task Manager                         │
-│  ◻ pending  ✓ done  ⚠ overdue  ↻ recurring  ★ crit  │
-╰──────────────────────────────────────────────────────╯
-```
-
 # ACTM · Annoying C++23 Task Manager
 
 **A zero-dependency, full-screen terminal task manager built in C++23.**  
@@ -97,7 +90,7 @@ g++ -std=c++23 -O2 -o todo.exe \
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # Launch the interactive TUI — just run it with no arguments
@@ -111,7 +104,7 @@ todo done 1
 
 ---
 
-## 📖 Usage
+## Usage
 
 ```
 todo [--no-color] [--data <path>] <command> [options]
@@ -378,12 +371,12 @@ Override with `--data <path>` on any command. The file is human-readable JSON an
 
 ## Contributing
 
-Pull requests are welcome! A few things to keep in mind:
+Pull requests are very welcome! A few things to keep in mind:
 
-- **Style:** `c_` prefix for classes, `_t` suffix for structs/enums, `k_` prefix for constants — keep it consistent.
-- **Standard:** C++23 only. No polyfills, no `#ifdef` workarounds for missing stdlib features.
-- **Dependencies:** None. Keep it that way.
-- **Platforms:** Test on at least Windows and one POSIX platform before submitting.
+- **Style:** `c_` prefix for classes, `_t` suffix for structs/enums, `k_` prefix for constants — keep it consistent I'm weird.
+- **Standard:** C++23 only. No polyfills, no `#ifdef` workarounds for missing stdlib features although there shouldn't be any.
+- **Dependencies:** None. Try to keep it that way.
+- **Platforms:** Test on at least Windows and one POSIX platform before submitting please.
 
 ---
 
