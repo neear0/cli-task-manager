@@ -9,43 +9,18 @@ Modern command-line todo / task manager with AI integration
 ╰──────────────────────────────────────────────────────╯
 ```
 
-# TODO · C++23 Task Manager
+# ACTM · Annoying C++23 Task Manager
 
-**A zero-dependency, full-screen terminal task manager built in modern C++23.**  
+**A zero-dependency, full-screen terminal task manager built in C++23.**  
 Interactive TUI that looks like htop. One-shot CLI for scripts. Runs at startup.
 
 [![C++23](https://img.shields.io/badge/C%2B%2B-23-blue?logo=cplusplus&logoColor=white)](https://en.cppreference.com/w/cpp/23)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey)](#build)
 [![Dependencies](https://img.shields.io/badge/dependencies-zero-brightgreen)](#)
-[![Lines of Code](https://img.shields.io/badge/lines%20of%20code-~4200-orange)](#project-structure)
 
 [**Features**](#-features) · [**Build**](#-build) · [**Usage**](#-usage) · [**TUI Controls**](#-interactive-tui) · [**File Structure**](#-project-structure)
 
 </div>
-
----
-
-## 📸 Preview
-
-```
-╭──────────────────────────────────────────────────────────────────────────────╮
-│  ✦ TODO ·  ◻ 5 pending   ✓ 2 done   ⚠ 1 OVERDUE      ◈ 2026-02-21 Saturday  │
-╰──────────────────────────────────────────────────────────────────────────────╯
-
-  Pending Tasks  (5 tasks)   Pending  All  Done
-  ┏━━━━━━┳━━━┳━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━┓
-  ┃ ID   ┃ ✓ ┃ PRI   ┃ TITLE                    ┃ TAGS      ┃ DUE        ┃ RECUR ┃
-  ┣━━━━━━┳━━━┳━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━┫
-  ┃    4 ┃ ◻ ┃ ◆ URG ┃ Pay water bill           ┃ #finance  ┃ ⚠ OVERDUE  ┃       ┃
-  ┃    1 ┃ ◻ ┃ ★ CRT ┃ Ship v2.0 release        ┃ #work …   ┃ Feb 21     ┃       ┃
-  ┃    2 ┃ ◻ ┃ ▲ HIG ┃ Write unit tests         ┃ #dev #qa  ┃ Mar  1     ┃       ┃
-  ┃    3 ┃ ◻ ┃ ● NRM ┃ Weekly team sync         ┃ #meetings ┃            ┃ ↻ wkl ┃
-  ┃    5 ┃ ◻ ┃ ▽ LOW ┃ Read a book              ┃ #personal ┃            ┃       ┃
-  ┗━━━━━━┻━━━┻━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━━┻━━━━━━━┛
-
-  [↑↓ 2/5] nav · [↵/d] done · [a] add · [e] edit · [x] del · [Tab] filter · [q] quit
-```
 
 ---
 
